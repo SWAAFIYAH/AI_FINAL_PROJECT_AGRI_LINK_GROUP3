@@ -10,7 +10,7 @@ requests>=2.28.0  # For API calls
 python-dotenv>=0.21.0  # For environment variables
 
 # Machine Learning & Data
-scikit-learn>=1.6.1  # For yield prediction model
+scikit-learn==1.6.1  # For yield prediction model
 joblib>=1.2.0  # For model serialization
 plotly>=5.11.0  # For interactive visualizations
 
