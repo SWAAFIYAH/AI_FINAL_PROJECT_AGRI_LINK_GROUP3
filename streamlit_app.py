@@ -66,7 +66,7 @@ from sklearn.pipeline import Pipeline
 # """, unsafe_allow_html=True)
 
 # ----- Backend API Configuration -----
-API_BASE_URL = "http://localhost:5000"  # Replace with your Flask backend URL
+API_BASE_URL = "https://project-test-ii.onrender.com/"  # Replace with your Flask backend URL
 
 # ----- Session State Initialization -----
 if 'user' not in st.session_state:
