@@ -89,6 +89,10 @@ def validate_user(email, password):
     return dict(user) if user else None
 
 # API Endpoints
+@app.route('/')
+def home():
+    return "API Ready for Render"
+    
 @app.route('/login', methods=['POST'])
 def login():
     data = request.json
@@ -553,4 +557,4 @@ def debug_request(request_id):
     })
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(app.run(host='0.0.0.0', port=10000))
