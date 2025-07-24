@@ -14,7 +14,6 @@ plotly>=5.11.0  # For interactive visualizations
 # Database & API
 Flask>=2.2.0
 Flask-CORS>=3.0.10
-sqlite3>=3.39.0  # Usually comes with Python
 
 # Image Processing (if needed)
 opencv-python-headless>=4.6.0  # Alternative for advanced image handling
