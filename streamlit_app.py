@@ -935,7 +935,7 @@ def buyer_dashboard():
                     with col2:
                         st.write(f"**Farmer:** {listing['farmer_name']}")
                         st.write(f"**Location:** {listing['location']}")
-                        st.write(f"**Price:** {'Free' if float(listing['price']) == 0 else f'${float(listing['price']):.2f}/kg'}")
+                        st.write(f"**Price:** {'Free' if float(listing['price']) == 0 else f'Ksh. {float(listing["price"]):.2f}/kg'}")
                         st.write(f"**Organic:** {'Yes' if listing['organic'] else 'No'}")
 
                         if float(listing['quantity']) > 0:
